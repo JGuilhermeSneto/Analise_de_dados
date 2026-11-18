@@ -1,0 +1,15 @@
+﻿Relação Analisada,N,Chi2,Graus de Liberdade,p-valor,V de Cramér,Odds Ratio (OR),Significativo (p < 0.05)
+Uso Intensivo de Redes Sociais x Situação Ofensiva/Desagradável (T0),1405,7.7524,1,0.0054,0.0743,1.4409,Sim
+Uso Intensivo de Redes Sociais x Perda de Sono/Refeições,1407,2.5876,1,0.1077,0.0429,1.3349,Não
+Uso Intensivo de Redes Sociais x Sofrimento por Desconexão,1407,3.1581,1,0.0756,0.0474,1.3536,Não
+Uso Intensivo de Redes Sociais x Prejuízo Familiar/Escolar,1407,7.1442,1,0.0075,0.0713,1.5447,Sim
+Uso Intensivo de Redes Sociais x Falha de Autorregulação,1407,9.6225,1,0.0019,0.0827,1.6124,Sim
+Situação Ofensiva/Desagradável (T0) x Perda de Sono/Refeições,1577,54.8738,1,1.2852e-13,0.1865,2.8229,Sim
+Situação Ofensiva/Desagradável (T0) x Sofrimento por Desconexão,1577,53.2556,1,2.9286e-13,0.1838,2.5988,Sim
+Situação Ofensiva/Desagradável (T0) x Falha de Autorregulação,1577,8.3188,1,0.0039,0.0726,1.4289,Sim
+Sexo x Discriminação por Aparência Física,102,6.9335,1,0.0085,0.2607,0.2575,Sim
+Sexo x Exposição a Conteúdos de Emagrecimento Extremo,1473,5.7974,1,0.0160,0.0627,0.7239,Sim
+Sexo x Procura de Informações sobre Saúde Mental,1316,59.0594,1,1.5298e-14,0.2118,0.3657,Sim
+Sexo x Situação Ofensiva/Desagradável (T0),1723,20.7119,1,5.3383e-06,0.1096,0.6269,Sim
+Faixa Etária x Situação Ofensiva/Desagradável (T0),1723,14.1838,2,8.3180e-04,0.0907,N/A,Sim
+Faixa Etária x Perda de Sono/Refeições,1703,2.0582,2,0.3573,0.0348,N/A,Não
