@@ -555,6 +555,28 @@ corr_matrix = df_teens[matrix_vars].corr(method='pearson')
 corr_matrix.columns = labels_matrix
 corr_matrix.index = labels_matrix
 
+fig, ax = plt.subplots(figsize=(12, 9))
+sns.heatmap(
+    corr_matrix,
+    annot=True,
+    fmt=".2f",
+    cmap="RdBu_r",
+    vmin=-1,
+    vmax=1,
+    center=0,
+    linewidths=0.8,
+    linecolor="white",
+    square=True,
+    cbar_kws={"label": "Coeficiente de correlacao"},
+    annot_kws={"size": 9},
+    ax=ax
+)
+ax.set_title("Matriz de Correlacao entre Indicadores de Uso Digital e Bem-Estar",
+             fontsize=14, fontweight="bold", pad=16)
+ax.tick_params(axis="x", rotation=35)
+ax.tick_params(axis="y", rotation=0)
+for tick in ax.get_xticklabels():
+    tick.set_horizontalalignment("right")
 fig.tight_layout()
 plt.savefig("figures/figura6_matriz_correlacao.png", dpi=300)
 plt.close()
